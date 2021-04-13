@@ -1,0 +1,58 @@
+{
+  "uid" : "74c6c1bc973029c7",
+  "name" : "Opening url",
+  "fullName" : "url test.Opening url",
+  "historyId" : "975b95a0d352da2979a1fdf318b7e471",
+  "time" : {
+    "start" : 1618328575219,
+    "stop" : 1618328582190,
+    "duration" : 6971
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "url test"
+  }, {
+    "name" : "testClass",
+    "value" : "url test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Opening url"
+  }, {
+    "name" : "package",
+    "value" : "url test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74c6c1bc973029c7.json",
+  "parameterValues" : [ "Chrome-89.0.4389.114" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "921b138919f5a7d0",
+  "name" : "Search for prodsuct and verify product search value",
+  "fullName" : "Ebay product search.Search for prodsuct and verify product search value",
+  "historyId" : "cfa7b7bd6f229875651a996f73dbfa70",
+  "time" : {
+    "start" : 1618328588250,
+    "stop" : 1618328593120,
+    "duration" : 4870
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ebay product search"
+  }, {
+    "name" : "testClass",
+    "value" : "Ebay product search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search for prodsuct and verify product search value"
+  }, {
+    "name" : "package",
+    "value" : "Ebay product search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "921b138919f5a7d0.json",
+  "parameterValues" : [ "Chrome-89.0.4389.114" ]
+}

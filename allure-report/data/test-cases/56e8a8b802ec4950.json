@@ -1,0 +1,58 @@
+{
+  "uid" : "56e8a8b802ec4950",
+  "name" : "link should be present on banner and it should be clickable",
+  "fullName" : "search watches page.link should be present on banner and it should be clickable",
+  "historyId" : "8a6a135204bf4787ebb330a8d47a039b",
+  "time" : {
+    "start" : 1618328590778,
+    "stop" : 1618328590867,
+    "duration" : 89
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "search watches page"
+  }, {
+    "name" : "testClass",
+    "value" : "search watches page"
+  }, {
+    "name" : "testMethod",
+    "value" : "link should be present on banner and it should be clickable"
+  }, {
+    "name" : "package",
+    "value" : "search watches page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-89.0.4389.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56e8a8b802ec4950.json",
+  "parameterValues" : [ "Chrome-89.0.4389.114" ]
+}
