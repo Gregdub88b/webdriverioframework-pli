@@ -1,12 +1,12 @@
 {
-  "uid" : "940ddcc1300a21b9",
-  "name" : "Open the url and verify the title",
-  "fullName" : "Ebay product search.Open the url and verify the title",
-  "historyId" : "137b810e6188e8c478c5585641d3abe7",
+  "uid" : "f753ce5195ea1924",
+  "name" : "Search for prodsuct and verify product search value",
+  "fullName" : "Ebay product search.Search for prodsuct and verify product search value",
+  "historyId" : "cfa7b7bd6f229875651a996f73dbfa70",
   "time" : {
-    "start" : 1618478503826,
-    "stop" : 1618478509184,
-    "duration" : 5358
+    "start" : 1618492237271,
+    "stop" : 1618492241557,
+    "duration" : 4286
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -32,7 +32,7 @@
     "value" : "Ebay product search"
   }, {
     "name" : "testMethod",
-    "value" : "Open the url and verify the title"
+    "value" : "Search for prodsuct and verify product search value"
   }, {
     "name" : "package",
     "value" : "Ebay product search"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "940ddcc1300a21b9.json",
+  "source" : "f753ce5195ea1924.json",
   "parameterValues" : [ "Chrome-89.0.4389.114" ]
 }

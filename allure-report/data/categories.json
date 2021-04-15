@@ -7,13 +7,13 @@
       "name" : "Expect $(`#gh-cat option:nth-child(1)`) to have text\n                \n                Expected: \"SATYA Laptops & Netbooks\"\n                Received: \"PC Laptops & Netbooks\"",
       "children" : [ {
         "name" : "Should update search category",
-        "uid" : "538d4804cc5a964e",
+        "uid" : "f1792812289b452d",
         "parentUid" : "6d57cc0d9b6bff59c6645aa0997e05cd",
         "status" : "failed",
         "time" : {
-          "start" : 1618478512213,
-          "stop" : 1618478522246,
-          "duration" : 10033
+          "start" : 1618492241569,
+          "stop" : 1618492251585,
+          "duration" : 10016
         },
         "flaky" : false,
         "newFailed" : false,

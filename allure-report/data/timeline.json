@@ -4,53 +4,53 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Search for prodsuct and verify product search value",
-      "uid" : "cc58c786c1640e3e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1618478509185,
-        "stop" : 1618478512206,
-        "duration" : 3021
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-89.0.4389.114" ]
-    }, {
       "name" : "navigate to new page and verify titile",
-      "uid" : "85f2bc50369954a6",
+      "uid" : "cf67a222e33d3188",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1618478512206,
-        "stop" : 1618478512213,
-        "duration" : 7
+        "start" : 1618492241557,
+        "stop" : 1618492241569,
+        "duration" : 12
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-89.0.4389.114" ]
     }, {
       "name" : "Should update search category",
-      "uid" : "538d4804cc5a964e",
+      "uid" : "f1792812289b452d",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1618478512213,
-        "stop" : 1618478522246,
-        "duration" : 10033
+        "start" : 1618492241569,
+        "stop" : 1618492251585,
+        "duration" : 10016
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-89.0.4389.114" ]
     }, {
       "name" : "Open the url and verify the title",
-      "uid" : "940ddcc1300a21b9",
+      "uid" : "f6ebcac415be459b",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1618478503826,
-        "stop" : 1618478509184,
-        "duration" : 5358
+        "start" : 1618492232613,
+        "stop" : 1618492237270,
+        "duration" : 4657
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-89.0.4389.114" ]
+    }, {
+      "name" : "Search for prodsuct and verify product search value",
+      "uid" : "f753ce5195ea1924",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618492237271,
+        "stop" : 1618492241557,
+        "duration" : 4286
       },
       "flaky" : false,
       "newFailed" : false,
@@ -61,13 +61,13 @@
     "name" : "0-2",
     "children" : [ {
       "name" : "Opening url",
-      "uid" : "c485610b14826b4a",
+      "uid" : "92d707e22278a007",
       "parentUid" : "880a094af3dffab161e2023284569d6f",
       "status" : "passed",
       "time" : {
-        "start" : 1618478503796,
-        "stop" : 1618478508324,
-        "duration" : 4528
+        "start" : 1618492232543,
+        "stop" : 1618492237362,
+        "duration" : 4819
       },
       "flaky" : false,
       "newFailed" : false,
@@ -77,53 +77,53 @@
   }, {
     "name" : "0-1",
     "children" : [ {
-      "name" : "click on shopbutton and verify url",
-      "uid" : "218d78e3e272062b",
+      "name" : "link should be present on banner and it should be clickable",
+      "uid" : "72865b9bc46a8034",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1618478513149,
-        "stop" : 1618478515133,
-        "duration" : 1984
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-89.0.4389.114" ]
-    }, {
-      "name" : "Should show watch banner",
-      "uid" : "660a3c0470d2d5b7",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1618478503600,
-        "stop" : 1618478513056,
-        "duration" : 9456
+        "start" : 1618492241859,
+        "stop" : 1618492241928,
+        "duration" : 69
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-89.0.4389.114" ]
     }, {
       "name" : "verifying banner title",
-      "uid" : "f6f4fff00599fb68",
+      "uid" : "79e596d5796d0078",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1618478513057,
-        "stop" : 1618478513077,
-        "duration" : 20
+        "start" : 1618492241833,
+        "stop" : 1618492241858,
+        "duration" : 25
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-89.0.4389.114" ]
     }, {
-      "name" : "link should be present on banner and it should be clickable",
-      "uid" : "799dfb533914c0a4",
+      "name" : "Should show watch banner",
+      "uid" : "e7e71a0fb800cf6b",
       "parentUid" : "27fa874cadc1574e37a07abb440963bd",
       "status" : "passed",
       "time" : {
-        "start" : 1618478513077,
-        "stop" : 1618478513149,
-        "duration" : 72
+        "start" : 1618492232544,
+        "stop" : 1618492241833,
+        "duration" : 9289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-89.0.4389.114" ]
+    }, {
+      "name" : "click on shopbutton and verify url",
+      "uid" : "aab14de0f40a8f39",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618492241928,
+        "stop" : 1618492244165,
+        "duration" : 2237
       },
       "flaky" : false,
       "newFailed" : false,

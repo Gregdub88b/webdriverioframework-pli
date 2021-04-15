@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618478738036' stop='1618478748842'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618492232543' stop='1618492244166'>
     <name>search watches page</name>
     <title>search watches page</title>
     <test-cases>
-        <test-case start='1618478738037' status='passed' stop='1618478745885'>
+        <test-case start='1618492232544' status='passed' stop='1618492241833'>
             <name>Should show watch banner</name>
             <title>Should show watch banner</title>
             <labels>
@@ -15,13 +15,13 @@
                 <label name='thread' value='0-1'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.114'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618478745887' status='passed' stop='1618478746223'>
+        <test-case start='1618492241833' status='passed' stop='1618492241858'>
             <name>verifying banner title</name>
             <title>verifying banner title</title>
             <labels>
@@ -30,12 +30,12 @@
                 <label name='thread' value='0-1'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.114'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618478746224' status='passed' stop='1618478746748'>
+        <test-case start='1618492241859' status='passed' stop='1618492241928'>
             <name>link should be present on banner and it should be clickable</name>
             <title>link should be present on banner and it should be clickable</title>
             <labels>
@@ -44,12 +44,12 @@
                 <label name='thread' value='0-1'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.114'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618478746748' status='passed' stop='1618478748841'>
+        <test-case start='1618492241928' status='passed' stop='1618492244165'>
             <name>click on shopbutton and verify url</name>
             <title>click on shopbutton and verify url</title>
             <labels>
@@ -58,7 +58,7 @@
                 <label name='thread' value='0-1'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.114'/>
             </parameters>
             <steps/>
             <attachments/>

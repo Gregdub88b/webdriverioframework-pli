@@ -1,12 +1,12 @@
 {
-  "uid" : "c485610b14826b4a",
-  "name" : "Opening url",
-  "fullName" : "url test.Opening url",
-  "historyId" : "975b95a0d352da2979a1fdf318b7e471",
+  "uid" : "f6ebcac415be459b",
+  "name" : "Open the url and verify the title",
+  "fullName" : "Ebay product search.Open the url and verify the title",
+  "historyId" : "137b810e6188e8c478c5585641d3abe7",
   "time" : {
-    "start" : 1618478503796,
-    "stop" : 1618478508324,
-    "duration" : 4528
+    "start" : 1618492232613,
+    "stop" : 1618492237270,
+    "duration" : 4657
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,19 +23,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-2"
+    "value" : "0-0"
   }, {
     "name" : "suite",
-    "value" : "url test"
+    "value" : "Ebay product search"
   }, {
     "name" : "testClass",
-    "value" : "url test"
+    "value" : "Ebay product search"
   }, {
     "name" : "testMethod",
-    "value" : "Opening url"
+    "value" : "Open the url and verify the title"
   }, {
     "name" : "package",
-    "value" : "url test"
+    "value" : "Ebay product search"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c485610b14826b4a.json",
+  "source" : "f6ebcac415be459b.json",
   "parameterValues" : [ "Chrome-89.0.4389.114" ]
 }

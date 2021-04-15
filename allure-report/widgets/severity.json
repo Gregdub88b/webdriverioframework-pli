@@ -1,90 +1,90 @@
 [ {
-  "uid" : "f6f4fff00599fb68",
-  "name" : "verifying banner title",
+  "uid" : "f6ebcac415be459b",
+  "name" : "Open the url and verify the title",
   "time" : {
-    "start" : 1618478513057,
-    "stop" : 1618478513077,
-    "duration" : 20
+    "start" : 1618492232613,
+    "stop" : 1618492237270,
+    "duration" : 4657
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "85f2bc50369954a6",
-  "name" : "navigate to new page and verify titile",
-  "time" : {
-    "start" : 1618478512206,
-    "stop" : 1618478512213,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "218d78e3e272062b",
-  "name" : "click on shopbutton and verify url",
-  "time" : {
-    "start" : 1618478513149,
-    "stop" : 1618478515133,
-    "duration" : 1984
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "660a3c0470d2d5b7",
-  "name" : "Should show watch banner",
-  "time" : {
-    "start" : 1618478503600,
-    "stop" : 1618478513056,
-    "duration" : 9456
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cc58c786c1640e3e",
-  "name" : "Search for prodsuct and verify product search value",
-  "time" : {
-    "start" : 1618478509185,
-    "stop" : 1618478512206,
-    "duration" : 3021
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c485610b14826b4a",
-  "name" : "Opening url",
-  "time" : {
-    "start" : 1618478503796,
-    "stop" : 1618478508324,
-    "duration" : 4528
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "538d4804cc5a964e",
+  "uid" : "f1792812289b452d",
   "name" : "Should update search category",
   "time" : {
-    "start" : 1618478512213,
-    "stop" : 1618478522246,
-    "duration" : 10033
+    "start" : 1618492241569,
+    "stop" : 1618492251585,
+    "duration" : 10016
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "799dfb533914c0a4",
-  "name" : "link should be present on banner and it should be clickable",
+  "uid" : "aab14de0f40a8f39",
+  "name" : "click on shopbutton and verify url",
   "time" : {
-    "start" : 1618478513077,
-    "stop" : 1618478513149,
-    "duration" : 72
+    "start" : 1618492241928,
+    "stop" : 1618492244165,
+    "duration" : 2237
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "940ddcc1300a21b9",
-  "name" : "Open the url and verify the title",
+  "uid" : "e7e71a0fb800cf6b",
+  "name" : "Should show watch banner",
   "time" : {
-    "start" : 1618478503826,
-    "stop" : 1618478509184,
-    "duration" : 5358
+    "start" : 1618492232544,
+    "stop" : 1618492241833,
+    "duration" : 9289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f753ce5195ea1924",
+  "name" : "Search for prodsuct and verify product search value",
+  "time" : {
+    "start" : 1618492237271,
+    "stop" : 1618492241557,
+    "duration" : 4286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79e596d5796d0078",
+  "name" : "verifying banner title",
+  "time" : {
+    "start" : 1618492241833,
+    "stop" : 1618492241858,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92d707e22278a007",
+  "name" : "Opening url",
+  "time" : {
+    "start" : 1618492232543,
+    "stop" : 1618492237362,
+    "duration" : 4819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72865b9bc46a8034",
+  "name" : "link should be present on banner and it should be clickable",
+  "time" : {
+    "start" : 1618492241859,
+    "stop" : 1618492241928,
+    "duration" : 69
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf67a222e33d3188",
+  "name" : "navigate to new page and verify titile",
+  "time" : {
+    "start" : 1618492241557,
+    "stop" : 1618492241569,
+    "duration" : 12
   },
   "status" : "passed",
   "severity" : "normal"

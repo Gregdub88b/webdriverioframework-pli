@@ -1,12 +1,12 @@
 {
-  "uid" : "cc58c786c1640e3e",
-  "name" : "Search for prodsuct and verify product search value",
-  "fullName" : "Ebay product search.Search for prodsuct and verify product search value",
-  "historyId" : "cfa7b7bd6f229875651a996f73dbfa70",
+  "uid" : "72865b9bc46a8034",
+  "name" : "link should be present on banner and it should be clickable",
+  "fullName" : "search watches page.link should be present on banner and it should be clickable",
+  "historyId" : "8a6a135204bf4787ebb330a8d47a039b",
   "time" : {
-    "start" : 1618478509185,
-    "stop" : 1618478512206,
-    "duration" : 3021
+    "start" : 1618492241859,
+    "stop" : 1618492241928,
+    "duration" : 69
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,19 +23,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "Ebay product search"
+    "value" : "search watches page"
   }, {
     "name" : "testClass",
-    "value" : "Ebay product search"
+    "value" : "search watches page"
   }, {
     "name" : "testMethod",
-    "value" : "Search for prodsuct and verify product search value"
+    "value" : "link should be present on banner and it should be clickable"
   }, {
     "name" : "package",
-    "value" : "Ebay product search"
+    "value" : "search watches page"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "cc58c786c1640e3e.json",
+  "source" : "72865b9bc46a8034.json",
   "parameterValues" : [ "Chrome-89.0.4389.114" ]
 }

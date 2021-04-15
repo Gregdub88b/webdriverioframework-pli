@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618478738729' stop='1618478758879'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618495541062' stop='1618495561841'>
     <name>Ebay product search</name>
     <title>Ebay product search</title>
     <test-cases>
-        <test-case start='1618478738729' status='passed' stop='1618478740912'>
+        <test-case start='1618495541063' status='passed' stop='1618495547226'>
             <name>Open the url and verify the title</name>
             <title>Open the url and verify the title</title>
             <labels>
@@ -12,12 +12,12 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.114'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618478740913' status='passed' stop='1618478748683'>
+        <test-case start='1618495547227' status='passed' stop='1618495551800'>
             <name>Search for prodsuct and verify product search value</name>
             <title>Search for prodsuct and verify product search value</title>
             <labels>
@@ -26,12 +26,12 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.114'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618478748684' status='passed' stop='1618478748762'>
+        <test-case start='1618495551800' status='passed' stop='1618495551813'>
             <name>navigate to new page and verify titile</name>
             <title>navigate to new page and verify titile</title>
             <labels>
@@ -40,12 +40,12 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.114'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618478748763' status='failed' stop='1618478758878'>
+        <test-case start='1618495551813' status='failed' stop='1618495561839'>
             <name>Should update search category</name>
             <title>Should update search category</title>
             <labels>
@@ -55,7 +55,7 @@
                 <label name='feature' value='Search Category'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='Chrome-89.0.4389.114'/>
             </parameters>
             <steps/>
             <attachments/>

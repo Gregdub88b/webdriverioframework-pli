@@ -1,12 +1,12 @@
 {
-  "uid" : "538d4804cc5a964e",
+  "uid" : "f1792812289b452d",
   "name" : "Should update search category",
   "fullName" : "Ebay product search.Should update search category",
   "historyId" : "d324339804e8cdd7c624dd5223cdf54b",
   "time" : {
-    "start" : 1618478512213,
-    "stop" : 1618478522246,
-    "duration" : 10033
+    "start" : 1618492241569,
+    "stop" : 1618492251585,
+    "duration" : 10016
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -62,6 +62,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "538d4804cc5a964e.json",
+  "source" : "f1792812289b452d.json",
   "parameterValues" : [ "Chrome-89.0.4389.114" ]
 }

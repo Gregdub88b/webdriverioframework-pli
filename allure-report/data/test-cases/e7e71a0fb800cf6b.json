@@ -1,12 +1,12 @@
 {
-  "uid" : "799dfb533914c0a4",
-  "name" : "link should be present on banner and it should be clickable",
-  "fullName" : "search watches page.link should be present on banner and it should be clickable",
-  "historyId" : "8a6a135204bf4787ebb330a8d47a039b",
+  "uid" : "e7e71a0fb800cf6b",
+  "name" : "Should show watch banner",
+  "fullName" : "search watches page.Should show watch banner",
+  "historyId" : "2ee5c746b3789deff3dc05fefdfcd720",
   "time" : {
-    "start" : 1618478513077,
-    "stop" : 1618478513149,
-    "duration" : 72
+    "start" : 1618492232544,
+    "stop" : 1618492241833,
+    "duration" : 9289
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -32,7 +32,7 @@
     "value" : "search watches page"
   }, {
     "name" : "testMethod",
-    "value" : "link should be present on banner and it should be clickable"
+    "value" : "Should show watch banner"
   }, {
     "name" : "package",
     "value" : "search watches page"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "799dfb533914c0a4.json",
+  "source" : "e7e71a0fb800cf6b.json",
   "parameterValues" : [ "Chrome-89.0.4389.114" ]
 }

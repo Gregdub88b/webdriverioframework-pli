@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618478503825' stop='1618478522248'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618492232613' stop='1618492251586'>
     <name>Ebay product search</name>
     <title>Ebay product search</title>
     <test-cases>
-        <test-case start='1618478503826' status='passed' stop='1618478509184'>
+        <test-case start='1618492232613' status='passed' stop='1618492237270'>
             <name>Open the url and verify the title</name>
             <title>Open the url and verify the title</title>
             <labels>
@@ -17,7 +17,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618478509185' status='passed' stop='1618478512206'>
+        <test-case start='1618492237271' status='passed' stop='1618492241557'>
             <name>Search for prodsuct and verify product search value</name>
             <title>Search for prodsuct and verify product search value</title>
             <labels>
@@ -31,7 +31,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618478512206' status='passed' stop='1618478512213'>
+        <test-case start='1618492241557' status='passed' stop='1618492241569'>
             <name>navigate to new page and verify titile</name>
             <title>navigate to new page and verify titile</title>
             <labels>
@@ -45,7 +45,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618478512213' status='failed' stop='1618478522246'>
+        <test-case start='1618492241569' status='failed' stop='1618492251585'>
             <name>Should update search category</name>
             <title>Should update search category</title>
             <labels>
