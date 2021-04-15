@@ -1,12 +1,12 @@
 {
-  "uid" : "74c6c1bc973029c7",
-  "name" : "Opening url",
-  "fullName" : "url test.Opening url",
-  "historyId" : "975b95a0d352da2979a1fdf318b7e471",
+  "uid" : "218d78e3e272062b",
+  "name" : "click on shopbutton and verify url",
+  "fullName" : "search watches page.click on shopbutton and verify url",
+  "historyId" : "3dd10c0c05be3ce70080b1ece2955e1a",
   "time" : {
-    "start" : 1618328575219,
-    "stop" : 1618328582190,
-    "duration" : 6971
+    "start" : 1618478513149,
+    "stop" : 1618478515133,
+    "duration" : 1984
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,19 +23,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-2"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "url test"
+    "value" : "search watches page"
   }, {
     "name" : "testClass",
-    "value" : "url test"
+    "value" : "search watches page"
   }, {
     "name" : "testMethod",
-    "value" : "Opening url"
+    "value" : "click on shopbutton and verify url"
   }, {
     "name" : "package",
-    "value" : "url test"
+    "value" : "search watches page"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "74c6c1bc973029c7.json",
+  "source" : "218d78e3e272062b.json",
   "parameterValues" : [ "Chrome-89.0.4389.114" ]
 }

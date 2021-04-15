@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618332240076' stop='1618332252433'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618478503599' stop='1618478515134'>
     <name>search watches page</name>
     <title>search watches page</title>
     <test-cases>
-        <test-case start='1618332240077' status='passed' stop='1618332249934'>
+        <test-case start='1618478503600' status='passed' stop='1618478513056'>
             <name>Should show watch banner</name>
             <title>Should show watch banner</title>
             <labels>
@@ -21,7 +21,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618332249935' status='passed' stop='1618332250055'>
+        <test-case start='1618478513057' status='passed' stop='1618478513077'>
             <name>verifying banner title</name>
             <title>verifying banner title</title>
             <labels>
@@ -35,7 +35,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618332250056' status='passed' stop='1618332250370'>
+        <test-case start='1618478513077' status='passed' stop='1618478513149'>
             <name>link should be present on banner and it should be clickable</name>
             <title>link should be present on banner and it should be clickable</title>
             <labels>
@@ -49,7 +49,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1618332250371' status='passed' stop='1618332252432'>
+        <test-case start='1618478513149' status='passed' stop='1618478515133'>
             <name>click on shopbutton and verify url</name>
             <title>click on shopbutton and verify url</title>
             <labels>

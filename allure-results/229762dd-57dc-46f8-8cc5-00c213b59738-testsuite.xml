@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618340689885' stop='1618340691699'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618478740897' stop='1618478744605'>
     <name>url test</name>
     <title>url test</title>
     <test-cases>
-        <test-case start='1618340689886' status='passed' stop='1618340691696'>
+        <test-case start='1618478740898' status='passed' stop='1618478744600'>
             <name>Opening url</name>
             <title>Opening url</title>
             <labels>

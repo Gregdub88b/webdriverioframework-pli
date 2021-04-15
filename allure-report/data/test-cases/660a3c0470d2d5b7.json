@@ -1,12 +1,12 @@
 {
-  "uid" : "c577b08c82b02ba0",
+  "uid" : "660a3c0470d2d5b7",
   "name" : "Should show watch banner",
   "fullName" : "search watches page.Should show watch banner",
   "historyId" : "2ee5c746b3789deff3dc05fefdfcd720",
   "time" : {
-    "start" : 1618328575287,
-    "stop" : 1618328590750,
-    "duration" : 15463
+    "start" : 1618478503600,
+    "stop" : 1618478513056,
+    "duration" : 9456
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c577b08c82b02ba0.json",
+  "source" : "660a3c0470d2d5b7.json",
   "parameterValues" : [ "Chrome-89.0.4389.114" ]
 }

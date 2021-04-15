@@ -1,12 +1,12 @@
 {
-  "uid" : "799f27263a2bad9e",
-  "name" : "verifying banner title",
-  "fullName" : "search watches page.verifying banner title",
-  "historyId" : "97bcfab877a67f04eb59fcfa8e082db1",
+  "uid" : "c485610b14826b4a",
+  "name" : "Opening url",
+  "fullName" : "url test.Opening url",
+  "historyId" : "975b95a0d352da2979a1fdf318b7e471",
   "time" : {
-    "start" : 1618328590751,
-    "stop" : 1618328590777,
-    "duration" : 26
+    "start" : 1618478503796,
+    "stop" : 1618478508324,
+    "duration" : 4528
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -23,19 +23,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-2"
   }, {
     "name" : "suite",
-    "value" : "search watches page"
+    "value" : "url test"
   }, {
     "name" : "testClass",
-    "value" : "search watches page"
+    "value" : "url test"
   }, {
     "name" : "testMethod",
-    "value" : "verifying banner title"
+    "value" : "Opening url"
   }, {
     "name" : "package",
-    "value" : "search watches page"
+    "value" : "url test"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -53,6 +53,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "799f27263a2bad9e.json",
+  "source" : "c485610b14826b4a.json",
   "parameterValues" : [ "Chrome-89.0.4389.114" ]
 }

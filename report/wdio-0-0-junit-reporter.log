@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Ebay product search" timestamp="2021-04-15T10:25:38" time="20.164" tests="4" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay product search"/>
+      <property name="capabilities" value="chrome.89_0_4389_90.windows"/>
+      <property name="file" value=".\test\specs\eBayHomePageSearch.js"/>
+    </properties>
+    <testcase classname="chrome.89_0_4389_90.windows.Ebay product search" name="Open the url and verify the title" time="2.182">
+      <system-out><![CDATA[
+COMMAND: POST /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/url - {"url":"https://www.ebay.com/"}
+RESULT: {"url":"https://www.ebay.com/"}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/title - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.89_0_4389_90.windows.Ebay product search" name="Search for prodsuct and verify product search value" time="7.77">
+      <system-out><![CDATA[
+COMMAND: POST /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/0/value - {"value":["L","a","p","t","o","p"]}
+RESULT: {"value":["L","a","p","t","o","p"]}
+COMMAND: POST /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element - {"using":"css selector","value":"#gh-btn"}
+RESULT: {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/1/click - {}
+RESULT: {}
+COMMAND: POST /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/2/enabled - {}
+RESULT: {}
+COMMAND: POST /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/execute - {"script":"return (function getProperty(element, property) {\n    return element[property];\n}).apply(null, arguments)","args":[{"ELEMENT":"2"},"value"]}
+RESULT: {"script":"return (function getProperty(element, property) {\n    return element[property];\n}).apply(null, arguments)","args":[{"ELEMENT":"2"},"value"]}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.89_0_4389_90.windows.Ebay product search" name="navigate to new page and verify titile" time="0.078">
+      <system-out><![CDATA[
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/title - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.89_0_4389_90.windows.Ebay product search" name="Should update search category" time="10.115">
+      <failure/>
+      <error message="Expect $(`#gh-cat option:nth-child(1)`) to have text&#xA;&#xA;Expected: &quot;SATYA Laptops &amp; Netbooks&quot;&#xA;Received: &quot;PC Laptops &amp; Netbooks&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: GET /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff/element/3/text - {}
+RESULT: {}
+COMMAND: DELETE /session/f399e3eefb673db78a776f7ebe4aa90326d1c1ff - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`#gh-cat option:nth-child(1)`) to have text
+
+Expected: "SATYA Laptops & Netbooks"
+Received: "PC Laptops & Netbooks"
+    at Context.<anonymous> (C:\Users\sprakesh\Projects\webdriverioFrame-pli\test\specs\eBayHomePageSearch.js:41:35)
+    at Context.executeSync (C:\Users\sprakesh\Projects\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+    at C:\Users\sprakesh\Projects\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

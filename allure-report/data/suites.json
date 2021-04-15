@@ -2,72 +2,55 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "url test",
-    "children" : [ {
-      "name" : "Opening url",
-      "uid" : "74c6c1bc973029c7",
-      "parentUid" : "5b7690a194ce2db566434c5511803fb1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1618328575219,
-        "stop" : 1618328582190,
-        "duration" : 6971
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "Chrome-89.0.4389.114" ]
-    } ],
-    "uid" : "5b7690a194ce2db566434c5511803fb1"
-  }, {
     "name" : "search watches page",
     "children" : [ {
       "name" : "Should show watch banner",
-      "uid" : "c577b08c82b02ba0",
+      "uid" : "660a3c0470d2d5b7",
       "parentUid" : "66d08aaed5d47e3bfe6555a1b46167b9",
       "status" : "passed",
       "time" : {
-        "start" : 1618328575287,
-        "stop" : 1618328590750,
-        "duration" : 15463
+        "start" : 1618478503600,
+        "stop" : 1618478513056,
+        "duration" : 9456
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-89.0.4389.114" ]
     }, {
       "name" : "verifying banner title",
-      "uid" : "799f27263a2bad9e",
+      "uid" : "f6f4fff00599fb68",
       "parentUid" : "66d08aaed5d47e3bfe6555a1b46167b9",
       "status" : "passed",
       "time" : {
-        "start" : 1618328590751,
-        "stop" : 1618328590777,
-        "duration" : 26
+        "start" : 1618478513057,
+        "stop" : 1618478513077,
+        "duration" : 20
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-89.0.4389.114" ]
     }, {
       "name" : "link should be present on banner and it should be clickable",
-      "uid" : "56e8a8b802ec4950",
+      "uid" : "799dfb533914c0a4",
       "parentUid" : "66d08aaed5d47e3bfe6555a1b46167b9",
       "status" : "passed",
       "time" : {
-        "start" : 1618328590778,
-        "stop" : 1618328590867,
-        "duration" : 89
+        "start" : 1618478513077,
+        "stop" : 1618478513149,
+        "duration" : 72
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-89.0.4389.114" ]
     }, {
       "name" : "click on shopbutton and verify url",
-      "uid" : "18cdcd579e7ff58a",
+      "uid" : "218d78e3e272062b",
       "parentUid" : "66d08aaed5d47e3bfe6555a1b46167b9",
       "status" : "passed",
       "time" : {
-        "start" : 1618328590867,
-        "stop" : 1618328594027,
-        "duration" : 3160
+        "start" : 1618478513149,
+        "stop" : 1618478515133,
+        "duration" : 1984
       },
       "flaky" : false,
       "newFailed" : false,
@@ -75,55 +58,72 @@
     } ],
     "uid" : "66d08aaed5d47e3bfe6555a1b46167b9"
   }, {
+    "name" : "url test",
+    "children" : [ {
+      "name" : "Opening url",
+      "uid" : "c485610b14826b4a",
+      "parentUid" : "5b7690a194ce2db566434c5511803fb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1618478503796,
+        "stop" : 1618478508324,
+        "duration" : 4528
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-89.0.4389.114" ]
+    } ],
+    "uid" : "5b7690a194ce2db566434c5511803fb1"
+  }, {
     "name" : "Ebay product search",
     "children" : [ {
       "name" : "Open the url and verify the title",
-      "uid" : "b72348dec378daa",
+      "uid" : "940ddcc1300a21b9",
       "parentUid" : "945dd301ce1c71c70a1f7dfacd95342f",
       "status" : "passed",
       "time" : {
-        "start" : 1618328575291,
-        "stop" : 1618328588249,
-        "duration" : 12958
+        "start" : 1618478503826,
+        "stop" : 1618478509184,
+        "duration" : 5358
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-89.0.4389.114" ]
     }, {
       "name" : "Search for prodsuct and verify product search value",
-      "uid" : "921b138919f5a7d0",
+      "uid" : "cc58c786c1640e3e",
       "parentUid" : "945dd301ce1c71c70a1f7dfacd95342f",
       "status" : "passed",
       "time" : {
-        "start" : 1618328588250,
-        "stop" : 1618328593120,
-        "duration" : 4870
+        "start" : 1618478509185,
+        "stop" : 1618478512206,
+        "duration" : 3021
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-89.0.4389.114" ]
     }, {
       "name" : "navigate to new page and verify titile",
-      "uid" : "355dda0fcc55a9ba",
+      "uid" : "85f2bc50369954a6",
       "parentUid" : "945dd301ce1c71c70a1f7dfacd95342f",
       "status" : "passed",
       "time" : {
-        "start" : 1618328593120,
-        "stop" : 1618328593126,
-        "duration" : 6
+        "start" : 1618478512206,
+        "stop" : 1618478512213,
+        "duration" : 7
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-89.0.4389.114" ]
     }, {
       "name" : "Should update search category",
-      "uid" : "7b9273f6b544c37c",
+      "uid" : "538d4804cc5a964e",
       "parentUid" : "945dd301ce1c71c70a1f7dfacd95342f",
       "status" : "failed",
       "time" : {
-        "start" : 1618328593126,
-        "stop" : 1618328603167,
-        "duration" : 10041
+        "start" : 1618478512213,
+        "stop" : 1618478522246,
+        "duration" : 10033
       },
       "flaky" : false,
       "newFailed" : false,

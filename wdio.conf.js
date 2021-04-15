@@ -9,8 +9,8 @@ if (!ENV || !['qa','dev','prod'].includes(ENV)) {
 exports.config = {
     //user: process.env.BROWSERSTACK_USERNAME,
     //key: process.env.BROWSERSTACK_ACCESS_KEY,
-    //user: 'satyaprakash15',
-    //key: 'ts6f4CE53syybjLWbHMf',
+    user: 'satyaprakash15',
+    key: 'ts6f4CE53syybjLWbHMf',
     //
     // ====================
     // Runner Configuration
@@ -150,7 +150,10 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec',['allure', {outputDir: 'allure-results',disableWebdriverStepsReporting: true, disableWebdriverScreenshotsReporting: false,}],['junit', {
-        outputDir: 'report'
+        outputDir: 'report',
+        outputFileFormat: function (options) {
+            return `results-${new Date().getTime()}.xml`;
+        }
     }],],
 
 
