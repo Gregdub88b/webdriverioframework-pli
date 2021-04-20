@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="url test" timestamp="2021-04-16T08:28:04" time="7.802" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="url test"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.win32"/>
+      <property name="file" value=".\test\specs\urlTest.js"/>
+    </properties>
+    <testcase classname="chrome.89_0_4389_114.win32.url test" name="Opening url" time="7.783">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

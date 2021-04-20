@@ -1,13 +1,13 @@
 
-module.exports = (function() {
-  const waitForTextChange = (elm, text, timeout) => {
-    browser.waitUntil(
-      function () {
-        return elm.getText() === text;
-      },
-      { timeout }
-    );
-  };
-  
 
-})();
+function waitForTextChange(elm, text, timeout) {
+  browser.waitUntil(
+    function () {
+      console.log('*********Inside custome function**********');
+      return elm.getText() === text;
+    },
+    { timeout }
+  );
+}
+
+export default waitForTextChange;

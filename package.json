@@ -10,7 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.13.14",
     "@wdio/allure-reporter": "^7.3.1",
+    "@wdio/appium-service": "^7.4.2",
     "@wdio/browserstack-service": "^7.3.1",
     "@wdio/cli": "^7.3.1",
     "@wdio/crossbrowsertesting-service": "^7.3.1",
@@ -21,10 +26,13 @@
     "@wdio/selenium-standalone-service": "^7.3.1",
     "@wdio/spec-reporter": "^7.3.1",
     "@wdio/sync": "^7.3.1",
+    "appium": "^1.20.2",
     "cross-env": "^7.0.3",
     "wdio-screenshot": "^0.6.0"
   },
   "dependencies": {
-    "wdio-video-reporter": "^3.1.1"
+    "exceljs": "^4.2.1",
+    "wdio-video-reporter": "^3.1.1",
+    "webdriverio": "^7.4.6"
   }
 }

@@ -9,7 +9,17 @@ before(() => {
     //console.log(eBayWatchSearchPage.getWatchesCategoryList());
 })
 
-
+afterEach(function(){
+        
+    if (this.currentTest.state== 'failed') {
+        
+        browser.takeScreenshot();
+    }
+         // var name = 'ERROR-chrome-' + Date.now()
+         
+      
+      
+    });
     it('Should show watch banner',() => {
         
         

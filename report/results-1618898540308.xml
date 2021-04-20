@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Launch eBay and verify E2E flow" timestamp="2021-04-20T07:02:22" time="11.573" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Launch eBay and verify E2E flow"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.win32"/>
+      <property name="file" value=".\test\specs\eBayTotal.js"/>
+    </properties>
+    <testcase classname="chrome.89_0_4389_114.win32.Launch eBay and verify E2E flow" name="verify e2e search Category" time="10.062">
+      <failure/>
+      <error message="Expect $(`#gh-ac`) to have property value&#xA;&#xA;Expected: &quot;LAPTOP&quot;&#xA;Received: &quot;&quot;"/>
+      <system-out><![CDATA[
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+COMMAND: getTitle - {}
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+RESULT: undefined
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":"#gh-ac"}
+COMMAND: getTitle - {}
+RESULT: undefined
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-2","name":"value"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-4","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-4","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-4","name":"value"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-4","name":"value"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-6","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-6","name":"value"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-6","name":"value"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-8","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-8","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-8","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-8","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-8","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-8","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-8","name":"value"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-8","name":"value"}
+COMMAND: takeScreenshot - {}
+RESULT: undefined
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`#gh-ac`) to have property value
+
+Expected: "LAPTOP"
+Received: ""
+    at Context.<anonymous> (C:\Users\sprakesh\Projects\webdriverioframe-pli\test\specs\/eBayTotal.js:63:42)
+    at Context.executeSync (C:\Users\sprakesh\Projects\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+    at C:\Users\sprakesh\Projects\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

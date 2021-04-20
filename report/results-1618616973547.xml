@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Test Mobile" timestamp="2021-04-17T00:49:48" time="0.019" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Test Mobile"/>
+      <property name="capabilities" value="emulator-5554.android.10"/>
+      <property name="file" value=".\test\specs\urlTest.js"/>
+    </properties>
+    <testcase classname="emulator-5554.android.10.Test Mobile" name="Tetsing Mobile" time="0.003">
+      <system-out><![CDATA[
+COMMAND: DELETE /session/7ca488c2-baa6-4366-99d8-7b0f0ae73477 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -3,10 +3,24 @@ const resources = require('../../resources/index');
 const eBayHomePage = require('../pageobjects/eBayHomePageSearch.page');
 const utilities = require('../../utilities/helper');
 
-const allureReporter = require('../../node_modules/@wdio/allure-reporter').default
+const allureReporter = require('../../node_modules/@wdio/allure-reporter').default;
+const { default: waitForTextChange } = require('../../utilities/helper');
 //import { waitForTextChange } from '../utilities/helper.js';
 describe('Ebay product search',() => {
    
+    afterEach(function(){
+        
+    if (this.currentTest.state== 'failed') {
+        
+        browser.takeScreenshot();
+    }
+         // var name = 'ERROR-chrome-' + Date.now()
+         
+      
+      
+    });
+
+
     it('Open the url and verify the title', () =>{
         eBayHomePage.open();
         //browser.url('https://www.ebay.com/');
@@ -38,6 +52,7 @@ it('Should update search category',() =>{
     //const category = $('#gh-cat option:nth-child(1)');
     
     allureReporter.addFeature('Search Category')
+    waitForTextChange(eBayHomePage.category,'SATYA Laptops & Netbooks',2000);
     expect(eBayHomePage.category).toHaveText('SATYA Laptops & Netbooks');
 });
     

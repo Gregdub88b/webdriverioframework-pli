@@ -1,16 +1,22 @@
 const allure = require('./node_modules/@wdio/allure-reporter').default
 const { default: AllureReporter } = require('@wdio/allure-reporter').default
+//const video = require('./node_modules/wdio-video-reporter')
 const url = require('./urls')
 const ENV = process.env.ENV
 if (!ENV || !['qa','dev','prod'].includes(ENV)) {
     console.log('Please pass correct ENV value as ENV: qa|dev|prod')
     process.exit()
 }
+
+
 exports.config = {
     //user: process.env.BROWSERSTACK_USERNAME,
     //key: process.env.BROWSERSTACK_ACCESS_KEY,
     //user: 'satyaprakash15',
     //key: 'ts6f4CE53syybjLWbHMf',
+    //port: 4723,
+    //host: 'localhost',
+    //path: '/wd/hub',
     //
     // ====================
     // Runner Configuration
@@ -70,9 +76,19 @@ exports.config = {
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
         maxInstances: 5,
+        sync: true,
         //
         browserName: 'chrome',
         acceptInsecureCerts: true
+        //command: 'appium',
+        //appiumVersion : '1.20.2',
+        //appPackage: 'com.wdiodemoapp',
+        //appActivity: '.MainActivity',
+   //UDID: 'emulator-5554',
+   //deviceName : 'Nexus 5 API 29',
+   
+    //platformName : 'Android'
+    
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -128,7 +144,7 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     services: ['selenium-standalone','firefox-profile','crossbrowsertesting'],
     //services: ['browserstack'],
-    
+    //services:['appium', {args: {command : 'appium',debugLogSpacing: true,appiumVersion : '1.20.2',deviceName : 'Android Emulator',platformVersion : '10.0',platformName : 'android',}}],
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks
@@ -149,7 +165,14 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec',['allure', {outputDir: 'allure-results',disableWebdriverStepsReporting: true, disableWebdriverScreenshotsReporting: false,}],['junit', {
+    reporters: ['spec',
+    /* [video, {
+        saveAllVideos: false,       // If true, also saves videos for successful test cases
+        videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+        //outputDir: 'allure-results/allure-results',
+        
+      }], */
+    ['allure', {outputDir: 'allure-results',disableWebdriverStepsReporting: true, disableWebdriverScreenshotsReporting: false}],['junit', {
         outputDir: 'report',
         outputFileFormat: function (options) {
             return `results-${new Date().getTime()}.xml`;
@@ -242,16 +265,15 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-     afterStep: function (test, context, { error, result, duration, passed, retries }) {
+     //afterStep: function (test, context, { error, result, duration, passed, retries }) {
         //console.log('Satya taking screenshot');
        
-        if (!passed) {
+        //if (!passed) {
            // var name = 'ERROR-chrome-' + Date.now()
-        browser.takeScreenshot();
-        }
-       },
-
-
+        //browser.takeScreenshot();
+       // }
+      // },
+       
     /**
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details

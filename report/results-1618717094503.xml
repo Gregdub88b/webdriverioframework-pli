@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Ebay product search" timestamp="2021-04-18T04:38:16" time="4.984" tests="2" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay product search"/>
+      <property name="capabilities" value="chrome.89_0_4389_114.win32"/>
+      <property name="file" value=".\test\specs\eBayHomePageSearch.js"/>
+    </properties>
+    <testcase classname="chrome.89_0_4389_114.win32.Ebay product search" name="Open the url and verify the title" time="4.958">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.89_0_4389_114.win32.Ebay product search" name="after each hook for Ebay product search" time="0.007">
+      <failure/>
+      <error message="Cannot destructure property 'error' of 'undefined' as it is undefined."/>
+      <system-err><![CDATA[
+TypeError: Cannot destructure property 'error' of 'undefined' as it is undefined.
+    at Context.<anonymous> (C:\Users\sprakesh\Projects\webdriverioFrame-pli\test\specs\/eBayHomePageSearch.js:9:40)
+    at Context.executeSync (C:\Users\sprakesh\Projects\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+    at C:\Users\sprakesh\Projects\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
