@@ -52,7 +52,7 @@ it('Should update search category',() =>{
     //const category = $('#gh-cat option:nth-child(1)');
     
     allureReporter.addFeature('Search Category')
-    waitForTextChange(eBayHomePage.category,'SATYA Laptops & Netbooks',2000);
+    //waitForTextChange(eBayHomePage.category,'SATYA Laptops & Netbooks',2000);
     expect(eBayHomePage.category).toHaveText('SATYA Laptops & Netbooks');
 });
     

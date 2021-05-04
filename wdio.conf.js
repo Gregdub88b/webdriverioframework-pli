@@ -12,8 +12,7 @@ if (!ENV || !['qa','dev','prod'].includes(ENV)) {
 exports.config = {
     //user: process.env.BROWSERSTACK_USERNAME,
     //key: process.env.BROWSERSTACK_ACCESS_KEY,
-    //user: 'satyaprakash15',
-    //key: 'ts6f4CE53syybjLWbHMf',
+,
     //port: 4723,
     //host: 'localhost',
     //path: '/wd/hub',

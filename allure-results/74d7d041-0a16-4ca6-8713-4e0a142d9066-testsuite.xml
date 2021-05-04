@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620116598617' stop='1620116620961'>
+    <name>Ebay product search</name>
+    <title>Ebay product search</title>
+    <test-cases>
+        <test-case start='1620116598618' status='passed' stop='1620116601786'>
+            <name>Open the url and verify the title</name>
+            <title>Open the url and verify the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620116601788' status='passed' stop='1620116606448'>
+            <name>Search for prodsuct and verify product search value</name>
+            <title>Search for prodsuct and verify product search value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620116606448' status='passed' stop='1620116606453'>
+            <name>navigate to new page and verify titile</name>
+            <title>navigate to new page and verify titile</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620116606453' status='failed' stop='1620116620957'>
+            <name>Should update search category</name>
+            <title>Should update search category</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Search Category'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='47b421d3-bbab-4528-b766-c50fcb6c0f9c-attachment.png' type='image/png' size='6409998'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`#gh-cat option:nth-child(1)`) to have text
+                
+                Expected: "SATYA Laptops &amp; Netbooks"
+                Received: "PC Laptops &amp; Netbooks"</message>
+                <stack-trace>Error: Expect $(`#gh-cat option:nth-child(1)`) to have text
+                
+                Expected: "SATYA Laptops &amp; Netbooks"
+                Received: "PC Laptops &amp; Netbooks"
+                    at Context.&lt;anonymous> (C:\Users\sprakesh\Projects\webdriverioFrame-pli\test\specs\/eBayHomePageSearch.js:56:35)
+                    at Context.executeSync (C:\Users\sprakesh\Projects\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\sprakesh\Projects\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
