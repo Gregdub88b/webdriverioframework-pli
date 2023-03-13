@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622535818211' stop='1622535853958'>
+    <name>Running all test: search watches page</name>
+    <title>Running all test: search watches page</title>
+    <test-cases>
+        <test-case start='1622535818211' status='failed' stop='1622535853958'>
+            <name>Search watch and verify new url</name>
+            <title>Search watch and verify new url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d09537d8-6158-48b6-a682-f1377c16aff9-attachment.png' type='image/png' size='648945'/>
+                <attachment title='Screenshot' source='06733e07-dc25-489a-99bf-39c8fda1913e-attachment.png' type='image/png' size='641693'/>
+                <attachment title='Screenshot' source='e497cd12-287e-4703-8970-842358af076d-attachment.png' type='image/png' size='641652'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`._FCF2BD5C1B05 .b-promobanner__info-title`) to have text
+                
+                Expected: undefined
+                Received: "Up to 30% off Rolex"</message>
+                <stack-trace>Error: Expect $(`._FCF2BD5C1B05 .b-promobanner__info-title`) to have text
+                
+                Expected: undefined
+                Received: "Up to 30% off Rolex"
+                    at Context.&lt;anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\test\specs\/eBayWatchesSearch.js:34:59)
+                    at Context.executeSync (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

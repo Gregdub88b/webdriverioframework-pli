@@ -1,5 +1,5 @@
 module.exports = {
     qa: 'https://www.ebay.com/',
-    dev: 'https://www.sogeti.com/',
-    prod: 'https://www.capgemini.com/',
+    dev: 'https://www.youtube.com/',
+    prod: 'https://www.xxxi.com/',
 }

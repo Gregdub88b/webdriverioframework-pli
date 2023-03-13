@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624979170317' stop='1624979185697'>
+    <name>Running all test: Ebay product search</name>
+    <title>Running all test: Ebay product search</title>
+    <test-cases>
+        <test-case start='1624979170317' status='failed' stop='1624979185696'>
+            <name>Open the url and verify the title</name>
+            <title>Open the url and verify the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3f46be7a-9e52-4154-90ab-af745e08cec9-attachment.png' type='image/png' size='2631917'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title
+                
+                Expected: "Laptop | eBay"
+                Received: "laptop | eBay"</message>
+                <stack-trace>Error: Expect window to have title
+                
+                Expected: "Laptop | eBay"
+                Received: "laptop | eBay"
+                    at Context.&lt;anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\test\specs\/eBayHomePageSearch.js:37:37)
+                    at Context.executeSync (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

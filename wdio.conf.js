@@ -1,22 +1,23 @@
 const allure = require('./node_modules/@wdio/allure-reporter').default
-const { default: AllureReporter } = require('@wdio/allure-reporter').default
+const {
+    default: AllureReporter
+} = require('@wdio/allure-reporter').default
 //const video = require('./node_modules/wdio-video-reporter')
+const excel_reader = require('./utilities/XLReader');
 const url = require('./urls')
+
 const ENV = process.env.ENV
-if (!ENV || !['qa','dev','prod'].includes(ENV)) {
+if (!ENV || !['qa', 'dev', 'prod'].includes(ENV)) {
     console.log('Please pass correct ENV value as ENV: qa|dev|prod')
     process.exit()
 }
 
 
 exports.config = {
-    //user: process.env.BROWSERSTACK_USERNAME,
-    //key: process.env.BROWSERSTACK_ACCESS_KEY,
-    //user: 'satyaprakash15',
-    //key: 'ts6f4CE53syybjLWbHMf',
-    //port: 4723,
-    //host: 'localhost',
-    //path: '/wd/hub',
+
+    // We call the function on setup and store its results as an array in the browser object
+    data: excel_reader.read_from_excel('./testdata.xlsx'),
+
     //
     // ====================
     // Runner Configuration
@@ -64,14 +65,13 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
     capabilities: [{
-    
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
@@ -84,11 +84,11 @@ exports.config = {
         //appiumVersion : '1.20.2',
         //appPackage: 'com.wdiodemoapp',
         //appActivity: '.MainActivity',
-   //UDID: 'emulator-5554',
-   //deviceName : 'Nexus 5 API 29',
-   
-    //platformName : 'Android'
-    
+        //UDID: 'emulator-5554',
+        //deviceName : 'Nexus 5 API 29',
+
+        //platformName : 'Android'
+
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -142,7 +142,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone','firefox-profile','crossbrowsertesting'],
+    services: ['selenium-standalone', 'firefox-profile', 'crossbrowsertesting'],
     //services: ['browserstack'],
     //services:['appium', {args: {command : 'appium',debugLogSpacing: true,appiumVersion : '1.20.2',deviceName : 'Android Emulator',platformVersion : '10.0',platformName : 'android',}}],
     // Framework you want to run your specs with.
@@ -166,21 +166,26 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec',
-    /* [video, {
-        saveAllVideos: false,       // If true, also saves videos for successful test cases
-        videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-        //outputDir: 'allure-results/allure-results',
-        
-      }], */
-    ['allure', {outputDir: 'allure-results',disableWebdriverStepsReporting: true, disableWebdriverScreenshotsReporting: false}],['junit', {
-        outputDir: 'report',
-        outputFileFormat: function (options) {
-            return `results-${new Date().getTime()}.xml`;
-        }
-    }],],
+        /* [video, {
+            saveAllVideos: false,       // If true, also saves videos for successful test cases
+            videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+            //outputDir: 'allure-results/allure-results',
+
+          }], */
+        ['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: false
+        }],
+        ['junit', {
+            outputDir: 'report',
+            outputFileFormat: function (options) {
+                return `results-${new Date().getTime()}.xml`;
+            }
+        }],
+    ],
 
 
-    
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
@@ -203,6 +208,7 @@ exports.config = {
      */
     // onPrepare: function (config, capabilities) {
     // },
+
     /**
      * Gets executed before a worker process is spawned and can be used to initialise specific service
      * for that worker as well as modify runtime environments in an async fashion.
@@ -212,7 +218,7 @@ exports.config = {
      * @param  {[type]} args     object that will be merged with the main configuration once worker is initialised
      * @param  {[type]} execArgv list of string arguments passed to the worker process
      */
-    // onWorkerStart: function (cid, caps, specs, args, execArgv) {
+    //onWorkerStart: function (cid, caps, specs, args, test_data1) {
     // },
     /**
      * Gets executed just before initialising the webdriver session and test framework. It allows you
@@ -221,7 +227,7 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    // beforeSession: function (config, capabilities, specs) {
+    //  beforeSession: function (config, capabilities, specs) {
     // },
     /**
      * Gets executed before test execution begins. At this point you can access to all global
@@ -231,6 +237,7 @@ exports.config = {
      * @param {Object}         browser      instance of created browser/device session
      */
     // before: function (capabilities, specs) {
+    //
     // },
     /**
      * Runs before a WebdriverIO command gets executed.
@@ -261,19 +268,19 @@ exports.config = {
      * afterEach in Mocha)
      */
     //afterHook: function (test, context, { error, result, duration, passed, retries }) {
-     //},
+    //},
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-     //afterStep: function (test, context, { error, result, duration, passed, retries }) {
-        //console.log('Satya taking screenshot');
-       
-        //if (!passed) {
-           // var name = 'ERROR-chrome-' + Date.now()
-        //browser.takeScreenshot();
-       // }
-      // },
-       
+    //afterStep: function (test, context, { error, result, duration, passed, retries }) {
+    //console.log('Satya taking screenshot');
+
+    //if (!passed) {
+    // var name = 'ERROR-chrome-' + Date.now()
+    //browser.takeScreenshot();
+    // }
+    // },
+
     /**
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details
@@ -296,10 +303,10 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {Array.<String>} specs List of spec file paths that ran
      */
-     //after: function (result, capabilities, specs) {
-       // var name = 'ERROR-chrome-' + Date.now()
-       //browser.takeScreenshot();
-     //},
+    //after: function (result, capabilities, specs) {
+    // var name = 'ERROR-chrome-' + Date.now()
+    //browser.takeScreenshot();
+    //},
     /**
      * Gets executed right after terminating the webdriver session.
      * @param {Object} config wdio configuration object
@@ -319,10 +326,10 @@ exports.config = {
     // onComplete: function(exitCode, config, capabilities, results) {
     // },
     /**
-    * Gets executed when a refresh happens.
-    * @param {String} oldSessionId session ID of the old session
-    * @param {String} newSessionId session ID of the new session
-    */
+     * Gets executed when a refresh happens.
+     * @param {String} oldSessionId session ID of the old session
+     * @param {String} newSessionId session ID of the new session
+     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
 }

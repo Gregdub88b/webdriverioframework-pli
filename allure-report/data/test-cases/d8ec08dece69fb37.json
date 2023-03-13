@@ -1,0 +1,93 @@
+{
+  "uid" : "d8ec08dece69fb37",
+  "name" : "Open the url and verify the title",
+  "fullName" : "Ebay product search.Open the url and verify the title",
+  "historyId" : "8172eec57229e2dc5127021f6dec77d6",
+  "time" : {
+    "start" : 1622041803218,
+    "stop" : 1622041831941,
+    "duration" : 28723
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#gh-cat option:nth-child(1)`) to have text\n                \n                Expected: \"Conor Laptops & Netbooks\"\n                Received: \"PC Laptops & Netbooks\"",
+  "statusTrace" : "Error: Expect $(`#gh-cat option:nth-child(1)`) to have text\n                \n                Expected: \"Conor Laptops & Netbooks\"\n                Received: \"PC Laptops & Netbooks\"\n                    at Context.<anonymous> (C:\\Users\\sprakesh\\Projects\\webdriverioframe-pli\\test\\specs\\/eBayHomePageSearch.js:39:51)\n                    at Context.executeSync (C:\\Users\\sprakesh\\Projects\\webdriverioframe-pli\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sprakesh\\Projects\\webdriverioframe-pli\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#gh-cat option:nth-child(1)`) to have text\n                \n                Expected: \"Conor Laptops & Netbooks\"\n                Received: \"PC Laptops & Netbooks\"",
+    "statusTrace" : "Error: Expect $(`#gh-cat option:nth-child(1)`) to have text\n                \n                Expected: \"Conor Laptops & Netbooks\"\n                Received: \"PC Laptops & Netbooks\"\n                    at Context.<anonymous> (C:\\Users\\sprakesh\\Projects\\webdriverioframe-pli\\test\\specs\\/eBayHomePageSearch.js:39:51)\n                    at Context.executeSync (C:\\Users\\sprakesh\\Projects\\webdriverioframe-pli\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\sprakesh\\Projects\\webdriverioframe-pli\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "58c2a13d19cb6c1d",
+      "name" : "Screenshot",
+      "source" : "58c2a13d19cb6c1d.png",
+      "type" : "image/png",
+      "size" : 6734457
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Search Category"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ebay product search"
+  }, {
+    "name" : "testClass",
+    "value" : "Ebay product search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Open the url and verify the title"
+  }, {
+    "name" : "package",
+    "value" : "Ebay product search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "57a075190cbc118a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622041725874,
+        "stop" : 1622041735287,
+        "duration" : 9413
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d8ec08dece69fb37.json",
+  "parameterValues" : [ "Chrome-90.0.4430.212" ]
+}

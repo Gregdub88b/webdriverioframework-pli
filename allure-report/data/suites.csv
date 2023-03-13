@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed May 26 16:10:03 BST 2021","Wed May 26 16:10:31 BST 2021","28723","","Ebay product search","","Ebay product search","Open the url and verify the title","Open the url and verify the title",""

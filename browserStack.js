@@ -10,8 +10,8 @@ if (!ENV || !['qa','dev','prod'].includes(ENV)) {
 
 
 exports.config = {
-      user: 'satyaprakash15',
-      key: 'ts6f4CE53syybjLWbHMf',
+    user: 'satyaprakash15',
+    key: 'ts6f4CE53syybjLWbHMf',
     
     runner: 'local',
     //

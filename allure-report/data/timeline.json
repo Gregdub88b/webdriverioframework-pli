@@ -1,0 +1,35 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Open the url and verify the title",
+      "uid" : "57a075190cbc118a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622041725874,
+        "stop" : 1622041735287,
+        "duration" : 9413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Open the url and verify the title",
+      "uid" : "d8ec08dece69fb37",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1622041803218,
+        "stop" : 1622041831941,
+        "duration" : 28723
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.212" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  } ]
+}

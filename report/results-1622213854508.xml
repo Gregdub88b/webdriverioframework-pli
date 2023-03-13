@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Ebay Home Page title Validation" timestamp="2021-05-28T15:57:38" time="1.53" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay Home Page title Validation"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\test\specs\urlTest.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.win32.Ebay Home Page title Validation" name="Open the url and verify the title" time="1.516">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624980640942' stop='1624980649891'>
+    <name>Running all test: Ebay product search</name>
+    <title>Running all test: Ebay product search</title>
+    <test-cases>
+        <test-case start='1624980640942' status='passed' stop='1624980649890'>
+            <name>Open the url and verify the title</name>
+            <title>Open the url and verify the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Search Category'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Search Category'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Search Category'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

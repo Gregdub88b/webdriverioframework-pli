@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Ebay product search" timestamp="2021-05-26T16:10:03" time="28.741" tests="2" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay product search"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\test\specs\eBayHomePageSearch.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.win32.Ebay product search" name="Open the url and verify the title" time="4.852">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-1","text":"Laptop"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-2"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: isElementEnabled - {"elementId":"ELEMENT-3"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-4","name":"value"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-5"}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_212.win32.Ebay product search" name="Open the url and verify the title" time="19.062">
+      <failure/>
+      <error message="Expect $(`#gh-cat option:nth-child(1)`) to have text&#xA;&#xA;Expected: &quot;Conor Laptops &amp; Netbooks&quot;&#xA;Received: &quot;PC Laptops &amp; Netbooks&quot;"/>
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-6","text":"Laptop"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-7"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: isElementEnabled - {"elementId":"ELEMENT-8"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-9","name":"value"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-10"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-10"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-10"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: takeScreenshot - {}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`#gh-cat option:nth-child(1)`) to have text
+
+Expected: "Conor Laptops & Netbooks"
+Received: "PC Laptops & Netbooks"
+    at Context.<anonymous> (C:\Users\sprakesh\Projects\webdriverioframe-pli\test\specs\/eBayHomePageSearch.js:39:51)
+    at Context.executeSync (C:\Users\sprakesh\Projects\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+    at C:\Users\sprakesh\Projects\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

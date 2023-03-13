@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Running all test" timestamp="2021-05-28T18:33:01" time="8.934" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Running all test"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\testRunner.js"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Ebay product search" timestamp="2021-05-28T18:33:01" time="4.038" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay product search"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\testRunner.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.win32.Ebay product search" name="Open the url and verify the title" time="4.027">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-1","text":"Laptop"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-2"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: isElementEnabled - {"elementId":"ELEMENT-3"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-4","name":"value"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-5"}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Ebay Home Page title Validation" timestamp="2021-05-28T18:33:05" time="0.805" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay Home Page title Validation"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\testRunner.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.win32.Ebay Home Page title Validation" name="Open the url and verify the title" time="0.801">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":".hl-cat-nav__js-tab a[href*=\"Fashion\"]"}
+RESULT: undefined
+COMMAND: getElementRect - {"elementId":"ELEMENT-6"}
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__js-tab a[href*=\"Fashion\"]"}
+RESULT: undefined
+COMMAND: getElementRect - {"elementId":"ELEMENT-6"}
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__js-tab a[href*=\"Fashion\"]"}
+RESULT: undefined
+COMMAND: getElementRect - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function () {\n        return { scrollX: this.pageXOffset, scrollY: this.pageYOffset };\n    }).apply(null, arguments)","args":[]}
+RESULT: undefined
+COMMAND: performActions - {"actions":[{"type":"pointer","id":"finger1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","duration":0,"x":295,"y":127}]}]}
+RESULT: undefined
+COMMAND: releaseActions - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__sub-cat-col a[href*=\"Watches-Parts\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-10","ELEMENT":"ELEMENT-10"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-10","ELEMENT":"ELEMENT-10"}]}
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__sub-cat-col a[href*=\"Watches-Parts\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-11","ELEMENT":"ELEMENT-11"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-11","ELEMENT":"ELEMENT-11"}]}
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__sub-cat-col a[href*=\"Watches-Parts\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-12","ELEMENT":"ELEMENT-12"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-12","ELEMENT":"ELEMENT-12"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-12","ELEMENT":"ELEMENT-12"}]}
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__sub-cat-col a[href*=\"Watches-Parts\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-13","ELEMENT":"ELEMENT-13"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-13","ELEMENT":"ELEMENT-13"}]}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="search watches page" timestamp="2021-05-28T18:33:06" time="4.09" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="search watches page"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\testRunner.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.win32.search watches page" name="before all hook for search watches page" time="4.086">
+      <failure/>
+      <error message="element (&quot;.hl-cat-nav__sub-cat-col a[href*=&quot;Watches-Parts&quot;]&quot;) still not clickable after 3000ms"/>
+      <system-err><![CDATA[
+Error: element (".hl-cat-nav__sub-cat-col a[href*="Watches-Parts"]") still not clickable after 3000ms
+    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at Element.elementErrorHandlerCallbackFn (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:23:32)
+    at Element.runCommandWithHooks (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.waitForClickable (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:44:12)
+    at Context.<anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\test\specs\/eBayWatchesSearch.js:10:37)
+    at Context.executeSync (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

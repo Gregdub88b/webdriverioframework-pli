@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Running all test" timestamp="2021-06-01T11:23:59" time="36.497" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Running all test"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\testRunner.js"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Ebay Home Page title Validation" timestamp="2021-06-01T11:23:59" time="1.323" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay Home Page title Validation"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\testRunner.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.win32.Ebay Home Page title Validation" name="Open the url and verify the title" time="1.314">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":".hl-cat-nav__js-tab a[href*=\"Fashion\"]"}
+RESULT: undefined
+COMMAND: getElementRect - {"elementId":"ELEMENT-1"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function () {\n        return { scrollX: this.pageXOffset, scrollY: this.pageYOffset };\n    }).apply(null, arguments)","args":[]}
+RESULT: undefined
+COMMAND: performActions - {"actions":[{"type":"pointer","id":"finger1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","duration":0,"x":295,"y":127}]}]}
+RESULT: undefined
+COMMAND: releaseActions - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__sub-cat-col a[href*=\"Watches-Parts\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-3","ELEMENT":"ELEMENT-3"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-3","ELEMENT":"ELEMENT-3"}]}
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__sub-cat-col a[href*=\"Watches-Parts\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-4","ELEMENT":"ELEMENT-4"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-4","ELEMENT":"ELEMENT-4"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__sub-cat-col a[href*=\"Watches-Parts\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-5"}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="search watches page" timestamp="2021-06-01T11:24:00" time="35.174" tests="3" failures="3" errors="3" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="search watches page"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\testRunner.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.win32.search watches page" name="Search watch and verify new url" time="12.027">
+      <failure/>
+      <error message="Expect $(`._FCF2BD5C1B05 .b-promobanner__info-title`) to have text&#xA;&#xA;Expected: undefined&#xA;Received: &quot;Up to 30% off Rolex&quot;"/>
+      <system-out><![CDATA[
+COMMAND: findElement - {"using":"css selector","value":"section.b-module.b-promobanner.clearfix._FCF2BD5C1B05.d1img70"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-6","ELEMENT":"ELEMENT-6"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-7"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-7"}
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-7"}
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-9"}
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-11"}
+RESULT: undefined
+COMMAND: takeScreenshot - {}
+RESULT: undefined
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`._FCF2BD5C1B05 .b-promobanner__info-title`) to have text
+
+Expected: undefined
+Received: "Up to 30% off Rolex"
+    at Context.<anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\test\specs\/eBayWatchesSearch.js:34:59)
+    at Context.executeSync (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_212.win32.search watches page" name="Search watch and verify new url" time="10.028">
+      <failure/>
+      <error message="Expect $(`._FCF2BD5C1B05 .b-promobanner__info-title`) to have text&#xA;&#xA;Expected: undefined&#xA;Received: &quot;Up to 30% off Rolex&quot;"/>
+      <system-out><![CDATA[
+COMMAND: findElement - {"using":"css selector","value":"section.b-module.b-promobanner.clearfix._FCF2BD5C1B05.d1img70"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-12","ELEMENT":"ELEMENT-12"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-13"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-13"}
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-13"}
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-15"}
+RESULT: undefined
+COMMAND: takeScreenshot - {}
+RESULT: undefined
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`._FCF2BD5C1B05 .b-promobanner__info-title`) to have text
+
+Expected: undefined
+Received: "Up to 30% off Rolex"
+    at Context.<anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\test\specs\/eBayWatchesSearch.js:34:59)
+    at Context.executeSync (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_212.win32.search watches page" name="Search watch and verify new url" time="10.025">
+      <failure/>
+      <error message="Expect $(`._FCF2BD5C1B05 .b-promobanner__info-title`) to have text&#xA;&#xA;Expected: undefined&#xA;Received: &quot;Up to 30% off Rolex&quot;"/>
+      <system-out><![CDATA[
+COMMAND: findElement - {"using":"css selector","value":"section.b-module.b-promobanner.clearfix._FCF2BD5C1B05.d1img70"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-16","ELEMENT":"ELEMENT-16"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-17"}
+RESULT: undefined
+COMMAND: takeScreenshot - {}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`._FCF2BD5C1B05 .b-promobanner__info-title`) to have text
+
+Expected: undefined
+Received: "Up to 30% off Rolex"
+    at Context.<anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\test\specs\/eBayWatchesSearch.js:34:59)
+    at Context.executeSync (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

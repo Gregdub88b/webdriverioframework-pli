@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624980374987' stop='1624980434990'>
+    <name>Running all test: search watches page</name>
+    <title>Running all test: search watches page</title>
+    <test-cases>
+        <test-case start='1624980374988' status='broken' stop='1624980434990'>
+            <name>"before all" hook for search watches page</name>
+            <title>"before all" hook for search watches page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "search watches page "before all" hook for "Search watch and verify new url"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Conor\Desktop\webdriverioframe-pli\TestRunner.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "search watches page "before all" hook for "Search watch and verify new url"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Conor\Desktop\webdriverioframe-pli\TestRunner.js)
+                    at createTimeoutError (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\mocha\lib\errors.js:491:15)
+                    at Hook.Runnable._timeoutError (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622223186046' stop='1622223190133'>
+    <name>Running all test: search watches page</name>
+    <title>Running all test: search watches page</title>
+    <test-cases>
+        <test-case start='1622223186046' status='broken' stop='1622223190132'>
+            <name>"before all" hook for search watches page</name>
+            <title>"before all" hook for search watches page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element (".hl-cat-nav__sub-cat-col a[href*="Watches-Parts"]") still not clickable after 3000ms</message>
+                <stack-trace>Error: element (".hl-cat-nav__sub-cat-col a[href*="Watches-Parts"]") still not clickable after 3000ms
+                    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.runCommandWithHooks (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.waitForClickable (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Context.&lt;anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\test\specs\/eBayWatchesSearch.js:10:37)
+                    at Context.executeSync (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

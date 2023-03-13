@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Search Category",
+    "children" : [ {
+      "name" : "Open the url and verify the title",
+      "uid" : "d8ec08dece69fb37",
+      "parentUid" : "9a866309ad020dbf366a75fef6132a2e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1622041803218,
+        "stop" : 1622041831941,
+        "duration" : 28723
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "Chrome-90.0.4430.212" ]
+    } ],
+    "uid" : "9a866309ad020dbf366a75fef6132a2e"
+  } ]
+}

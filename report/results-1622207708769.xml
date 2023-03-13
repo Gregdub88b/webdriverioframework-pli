@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Ebay product search" timestamp="2021-05-28T14:15:12" time="3.566" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay product search"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\test\specs\eBayHomePageSearch.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.win32.Ebay product search" name="Open the url and verify the title" time="3.558">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-1","text":"Laptop"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-2"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: isElementEnabled - {"elementId":"ELEMENT-3"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-4","name":"value"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-5"}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

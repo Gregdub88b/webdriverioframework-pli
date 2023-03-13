@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624980269381' stop='1624980304050'>
+    <name>Running all test: Ebay product search</name>
+    <title>Running all test: Ebay product search</title>
+    <test-cases>
+        <test-case start='1624980269381' status='failed' stop='1624980304049'>
+            <name>Open the url and verify the title</name>
+            <title>Open the url and verify the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='66f4df67-0eef-4737-9eb2-762f0590a7d4-attachment.png' type='image/png' size='1313203'/>
+                <attachment title='Screenshot' source='f3dce282-0361-4927-b676-bfcff520739e-attachment.png' type='image/png' size='1527845'/>
+                <attachment title='Screenshot' source='6bc0adc5-87e1-4c08-a6ae-0e623845b987-attachment.png' type='image/png' size='1147628'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title
+                
+                Expected: undefined
+                Received: "Electronics, Cars, Fashion, Collectibles &amp; More | eBay"</message>
+                <stack-trace>Error: Expect window to have title
+                
+                Expected: undefined
+                Received: "Electronics, Cars, Fashion, Collectibles &amp; More | eBay"
+                    at Context.&lt;anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\test\specs\/eBayHomePageSearch.js:26:33)
+                    at Context.executeSync (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

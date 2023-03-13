@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d8ec08dece69fb37",
+  "name" : "Open the url and verify the title",
+  "time" : {
+    "start" : 1622041803218,
+    "stop" : 1622041831941,
+    "duration" : 28723
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

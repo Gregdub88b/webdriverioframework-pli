@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Ebay product search" timestamp="2021-05-28T17:33:50" time="5.194" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay product search"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\test\specs\eBayHomePageSearch.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.win32.Ebay product search" name="Open the url and verify the title" time="3.228">
+      <failure/>
+      <error message="stale element reference: The element with reference ELEMENT-4 is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed"/>
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-1","text":"Laptop"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-2"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-2"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-4"}
+COMMAND: findElement - {"using":"css selector","value":"#gh-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-4"}
+COMMAND: takeScreenshot - {}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+      <system-err><![CDATA[
+stale element reference: The element with reference ELEMENT-4 is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+    at Object.getStaleElementError (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\devtools\build\utils.js:182:19)
+    at DevToolsDriver.elementClick (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\devtools\build\commands\elementClick.js:24:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Element.wrappedCommand (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\devtools\build\devtoolsdriver.js:75:26)
+    at Element.elementErrorHandlerCallbackFn (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:40:28)
+    at Element.runCommandWithHooks (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+    at Element.runCommandWithHooks (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+    at Element.wrapCommandFn (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+    at Element.click (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:44:12)
+    at Context.<anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\test\specs\/eBayHomePageSearch.js:28:44)
+    at Context.executeSync (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

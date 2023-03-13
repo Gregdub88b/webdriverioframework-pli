@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Running all test" timestamp="2021-06-29T16:46:48" time="9.401" tests="0" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Running all test"/>
+      <property name="capabilities" value="chrome.91_0_4472_114.win32"/>
+      <property name="file" value=".\TestRunner.js"/>
+    </properties>
+  </testsuite>
+  <testsuite name="Ebay product search" timestamp="2021-06-29T16:46:48" time="3.87" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay product search"/>
+      <property name="capabilities" value="chrome.91_0_4472_114.win32"/>
+      <property name="file" value=".\TestRunner.js"/>
+    </properties>
+    <testcase classname="chrome.91_0_4472_114.win32.Ebay product search" name="Open the url and verify the title" time="3.862">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: elementSendKeys - {"elementId":"ELEMENT-1","text":"Laptop"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-2"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: isElementEnabled - {"elementId":"ELEMENT-3"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-ac"}
+RESULT: undefined
+COMMAND: getElementProperty - {"elementId":"ELEMENT-4","name":"value"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-5"}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Ebay Home Page title Validation" timestamp="2021-06-29T16:46:52" time="0.808" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay Home Page title Validation"/>
+      <property name="capabilities" value="chrome.91_0_4472_114.win32"/>
+      <property name="file" value=".\TestRunner.js"/>
+    </properties>
+    <testcase classname="chrome.91_0_4472_114.win32.Ebay Home Page title Validation" name="Open the url and verify the title" time="0.805">
+      <system-out><![CDATA[
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: getTitle - {}
+RESULT: undefined
+COMMAND: navigateTo - {"url":"https://www.ebay.com/"}
+RESULT: undefined
+COMMAND: findElements - {"using":"css selector","value":".hl-cat-nav__js-tab a[href*=\"Fashion\"]"}
+RESULT: undefined
+COMMAND: getElementRect - {"elementId":"ELEMENT-6"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function () {\n        return { scrollX: this.pageXOffset, scrollY: this.pageYOffset };\n    }).apply(null, arguments)","args":[]}
+RESULT: undefined
+COMMAND: performActions - {"actions":[{"type":"pointer","id":"finger1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","duration":0,"x":295,"y":127}]}]}
+RESULT: undefined
+COMMAND: releaseActions - {}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__sub-cat-col a[href*=\"Watches-Parts\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-8","ELEMENT":"ELEMENT-8"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-8","ELEMENT":"ELEMENT-8"}]}
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__sub-cat-col a[href*=\"Watches-Parts\"]"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-9","ELEMENT":"ELEMENT-9"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-9","ELEMENT":"ELEMENT-9"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":".hl-cat-nav__sub-cat-col a[href*=\"Watches-Parts\"]"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-10"}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="search watches page" timestamp="2021-06-29T16:46:53" time="4.723" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="search watches page"/>
+      <property name="capabilities" value="chrome.91_0_4472_114.win32"/>
+      <property name="file" value=".\TestRunner.js"/>
+    </properties>
+    <testcase classname="chrome.91_0_4472_114.win32.search watches page" name="Search watch and verify new url" time="3.14">
+      <system-out><![CDATA[
+COMMAND: findElement - {"using":"css selector","value":"section.b-module.b-promobanner.clearfix._FCF2BD5C1B05.d1img70"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-11","ELEMENT":"ELEMENT-11"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-12"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-btn"}
+RESULT: undefined
+COMMAND: getElementAttribute - {"elementId":"ELEMENT-13","name":"href"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-btn"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-14","ELEMENT":"ELEMENT-14"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-14","ELEMENT":"ELEMENT-14"}]}
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-btn"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-15","ELEMENT":"ELEMENT-15"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-15","ELEMENT":"ELEMENT-15"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-16"}
+RESULT: undefined
+COMMAND: getUrl - {}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

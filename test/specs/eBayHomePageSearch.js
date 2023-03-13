@@ -1,59 +1,45 @@
-
-const resources = require('../../resources/index');
+// Imports
 const eBayHomePage = require('../pageobjects/eBayHomePageSearch.page');
-const utilities = require('../../utilities/helper');
-
 const allureReporter = require('../../node_modules/@wdio/allure-reporter').default;
-const { default: waitForTextChange } = require('../../utilities/helper');
-//import { waitForTextChange } from '../utilities/helper.js';
-describe('Ebay product search',() => {
-   
-    afterEach(function(){
-        
-    if (this.currentTest.state== 'failed') {
-        
-        browser.takeScreenshot();
-    }
-         // var name = 'ERROR-chrome-' + Date.now()
-         
-      
-      
-    });
+const {default: waitForTextChange} = require('../../utilities/helper');
+const excel_reader = require('../../utilities/XLReader');
 
+describe('Ebay product search', () => {
+    afterEach(function () {
 
-    it('Open the url and verify the title', () =>{
-        eBayHomePage.open();
-        //browser.url('https://www.ebay.com/');
-        expect(browser).toHaveTitle(resources.homeTitle);
-        //expect(browser).toHaveTitle('Electronics, Cars, Fashion, Collectibles & More | eBay'
-       // );
-    });
+        if (this.currentTest.state == 'failed') {
 
-    it('Search for prodsuct and verify product search value',() =>{
-        
-        eBayHomePage.searchInput.addValue('Laptop');
-        eBayHomePage.searchBtn.click();
-        eBayHomePage.searchInput.waitForEnabled({ timeout :2000 });
-    
-        expect(eBayHomePage.searchInput).toHaveValue('LAPTOP', { ignoreCase: true });
-        
-      
+            browser.takeScreenshot();
+        }
 
     });
 
-    it('navigate to new page and verify titile',() =>{
-        expect(browser).toHaveTitle(resources.laptopTitle);
-    });
-it('Should update search category',() =>{
-  
-    //browser.waitAndClick(eBayHomePage.category);
-   //browser.waitForTextChange(eBayHomePage.category,'PC Laptops & Netbooks',2000);
-   
-    //const category = $('#gh-cat option:nth-child(1)');
-    
-    allureReporter.addFeature('Search Category')
-    //waitForTextChange(eBayHomePage.category,'SATYA Laptops & Netbooks',2000);
-    expect(eBayHomePage.category).toHaveText('SATYA Laptops & Netbooks');
-});
-    
+    const excel_data = browser.config.data;
+
+
+    excel_data[0].forEach(function (data) {
+            if (data.test_case_name === 'eBayHomePageSearch') {
+
+                excel_data[1].forEach(function (data) {
+
+                    it('Open the url and verify the title', () => {
+                        eBayHomePage.open();
+                        expect(browser).toHaveTitle(data.homeTitle);
+
+                        eBayHomePage.searchInput.addValue(data.searchText);
+                        eBayHomePage.searchBtn.click();
+
+                        eBayHomePage.searchInput.waitForEnabled({timeout: 2000});
+                        expect(eBayHomePage.searchInput).toHaveValue(data.expectedValue, {ignoreCase: true});
+
+                        expect(browser).toHaveTitle(data.laptopTitle);
+                        allureReporter.addFeature('Search Category')
+                        expect(eBayHomePage.category).toHaveText(data.expectedText);
+
+                    });
+
+                })
+            }
+        }
+    )
 });

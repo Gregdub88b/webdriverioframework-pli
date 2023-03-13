@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="search watches page" timestamp="2021-05-26T16:46:33" time="14.348" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="search watches page"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.win32"/>
+      <property name="file" value=".\test\specs\eBayWatchesSearch.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.win32.search watches page" name="Search watch and verify new url" time="8.005">
+      <system-out><![CDATA[
+COMMAND: findElement - {"using":"css selector","value":"section.b-module.b-promobanner.clearfix._FCF2BD5C1B05.d1img70"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-6","ELEMENT":"ELEMENT-6"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-title"}
+RESULT: undefined
+COMMAND: getElementText - {"elementId":"ELEMENT-7"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-btn"}
+RESULT: undefined
+COMMAND: getElementAttribute - {"elementId":"ELEMENT-8","name":"href"}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-btn"}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-9","ELEMENT":"ELEMENT-9"}]}
+RESULT: undefined
+COMMAND: executeScript - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ELEMENT-9","ELEMENT":"ELEMENT-9"}]}
+RESULT: undefined
+COMMAND: findElement - {"using":"css selector","value":"._FCF2BD5C1B05 .b-promobanner__info-btn"}
+RESULT: undefined
+COMMAND: elementClick - {"elementId":"ELEMENT-10"}
+RESULT: undefined
+COMMAND: getUrl - {}
+RESULT: undefined
+COMMAND: deleteSession - {}
+RESULT: undefined
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

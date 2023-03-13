@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624980304062' stop='1624980374985'>
+    <name>Running all test: Ebay Home Page title Validation</name>
+    <title>Running all test: Ebay Home Page title Validation</title>
+    <test-cases>
+        <test-case start='1624980304063' status='broken' stop='1624980374984'>
+            <name>"after each" hook for Ebay Home Page title Validation</name>
+            <title>"after each" hook for Ebay Home Page title Validation</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+                <parameter kind='argument' name='browser' value='Chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Ebay Home Page title Validation "after each" hook for "Open the url and verify the title"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Conor\Desktop\webdriverioframe-pli\TestRunner.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Ebay Home Page title Validation "after each" hook for "Open the url and verify the title"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Conor\Desktop\webdriverioframe-pli\TestRunner.js)
+                    at createTimeoutError (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\mocha\lib\errors.js:491:15)
+                    at Hook.Runnable._timeoutError (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

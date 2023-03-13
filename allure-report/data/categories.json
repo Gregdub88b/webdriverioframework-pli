@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`#gh-cat option:nth-child(1)`) to have text\n                \n                Expected: \"Conor Laptops & Netbooks\"\n                Received: \"PC Laptops & Netbooks\"",
+      "children" : [ {
+        "name" : "Open the url and verify the title",
+        "uid" : "d8ec08dece69fb37",
+        "parentUid" : "9db045cda8a60dcbc09e9f671be678d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622041803218,
+          "stop" : 1622041831941,
+          "duration" : 28723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Chrome-90.0.4430.212" ]
+      } ],
+      "uid" : "9db045cda8a60dcbc09e9f671be678d7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

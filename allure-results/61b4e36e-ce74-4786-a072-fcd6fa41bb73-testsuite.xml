@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622212656181' stop='1622212661575'>
+    <name>Ebay product search</name>
+    <title>Ebay product search</title>
+    <test-cases>
+        <test-case start='1622212656181' status='broken' stop='1622212661573'>
+            <name>Open the url and verify the title</name>
+            <title>Open the url and verify the title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e47aca58-2c50-4d42-b83c-a5252108b6cc-attachment.png' type='image/png' size='1083832'/>
+            </attachments>
+            <failure>
+                <message>stale element reference: The element with reference ELEMENT-3 is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed</message>
+                <stack-trace>stale element reference: The element with reference ELEMENT-3 is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
+                    at Object.getStaleElementError (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\devtools\build\utils.js:182:19)
+                    at DevToolsDriver.elementSendKeys (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\devtools\build\commands\elementSendKeys.js:23:23)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Element.wrappedCommand (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\devtools\build\devtoolsdriver.js:75:26)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:40:28)
+                    at Element.runCommandWithHooks (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.addValue (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Context.&lt;anonymous> (C:\Users\Conor\Desktop\webdriverioframe-pli\test\specs\/BayHomePageSearch.js:27:46)
+                    at Context.executeSync (C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\Conor\Desktop\webdriverioframe-pli\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
